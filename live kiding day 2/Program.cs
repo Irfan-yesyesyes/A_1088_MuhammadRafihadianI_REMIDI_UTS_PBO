@@ -85,7 +85,7 @@ namespace Gudang
             Console.WriteLine($"Waktu: {Waktu}, Kode Barang: {KodeBarang}, Jenis: {Jenis}, Jumlah: {Jumlah}");
         }
     }
-    public class Warehouse
+    public class gudang
     {
         private List<Barang> daftarBarang = new List<Barang>();
         private List<Transaksi> riwayatTransaksi = new List<Transaksi>();
